@@ -1,0 +1,212 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+}
+
+body {
+  background-color: #aaaaaa;
+  margin: 0 auto;
+  width: 960px;
+  
+}
+
+Header {
+  background-color: #ffffff;
+  float: left;
+  width:100%;
+  display: inline-block; 
+  margin-bottom: 10px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 0;
+  text-align: center;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #aaaaaa;
+  margin: auto;
+  
+}
+
+ul {
+  float: right;
+  display: inline-block;
+  
+}
+
+ul li {
+  margin:0;
+  padding: 8px;
+  display: inline-block;
+}
+
+a {
+  color: #777777;
+  text-decoration: none;
+}
+  
+
+header h1 {
+  margin:0 auto;
+  margin: 0 auto;
+  display: inline;
+  float: left;
+}
+ 
+.logo {
+  background-color: #4aaaa5;
+  color: #ffffff;
+  padding: 20px;
+  
+}
+
+.about {
+  clear: both;
+  color: #4aaaa5;
+}
+
+.aboutme {
+  background-color: #ffffff;
+  margin-top: 100px;
+  padding: 10px;
+  
+  color: #777777;
+  
+}
+
+footer {
+  background-color: #777777;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+  text-align: center;
+  color: #ffffff;
+  border-top-style: solid;
+  border-top-color: #4aaaa5;
+  
+}
+
+.content {
+  width:960px;
+  display: inline-block;
+
+}
+
+.nopadding {
+  padding: 0;
+  margin: 0%;
+}
+
+img {
+  width: 160px;
+  height: 160px;
+  float: left;
+  padding: 10px;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+.contactInfo {
+  background-color: #ffffff;
+  margin-top: 100px;
+  padding: 10px;
+  margin-bottom: 100px;
+  color: #777777;
+
+}
+
+.contact {
+  clear: both;
+  color: #4aaaa5;
+}
+
+.portfolioInfo {
+  background-color: #ffffff;
+  margin-top: 100px;
+  padding: 10px;
+  margin-bottom: 100px;
+  color: #777777;
+}
+
+.portfolio {
+  clear: both;
+  color: #4aaaa5;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4aaaa5;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #4aaaa4;
+}
+
+.container {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.grid {
+  min-width: 926px;
+  display: grid;
+  grid-template-columns: 300px 300px;
+  grid-template-rows: 250px 250px;
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+  padding-top: 30px;
+}
+
+#hangman {
+  background-image: url("../images/rock.jpeg")
+}
+
+#rpg {
+  background-image: url("../images/rocks.jpeg")
+}
+
+#trivia {
+  background-image: url("../images/water.jpeg")
+}
+
+#widget {
+  background-image: url("../images/lady.jpeg")
+}
+
+#rockpaperscissors {
+  background-image: url("../images/kick.jpeg")
+}
+
+h3 {
+  background: #4aaaa5;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 150px;
+}
+
+li+li {
+  border-left: 1px solid #cccccc;
+}
